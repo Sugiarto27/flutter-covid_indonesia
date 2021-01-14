@@ -35,7 +35,7 @@ class _DetailpositifState extends State<Detailpositif> {
       home: Scaffold(
           appBar: AppBar(
             title: Text(
-                (widget != null) ? 'Per Provinsi - ' + widget.namajudul : ''),
+                (widget != null) ? 'Per-Provinsi - ' + widget.namajudul : ''),
           ),
           body: Container(
             child: ListView.builder(
