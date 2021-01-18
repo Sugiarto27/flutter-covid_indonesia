@@ -87,7 +87,7 @@ class CovidProvinsi {
 
       return listData;
     } else {
-      print('Failed to load data!');
+      print('Failed to load data?');
     }
   }
 }
