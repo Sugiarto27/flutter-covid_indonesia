@@ -52,7 +52,7 @@ class CovidTot {
       var result = (hasilJson as Map<String, dynamic>)['update']['total'];
       return CovidTot.fromJson(result);
     } else {
-      print('Failed to load data');
+      print('Failed to load data!');
     }
   }
 }
@@ -87,7 +87,7 @@ class CovidProvinsi {
 
       return listData;
     } else {
-      print('Failed to load data');
+      print('Failed to load data?');
     }
   }
 }
